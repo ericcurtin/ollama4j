@@ -53,7 +53,7 @@ class Ollama4jUIImageCarousel extends React.Component {
                         </a>
                     </h4>
                 </div>
-                <div className="container">
+                {/* <div className="container">
                     <div style={{ display: 'flex', justifyContent: 'center' }}>
                     <iframe
                         width="720"
@@ -66,7 +66,7 @@ class Ollama4jUIImageCarousel extends React.Component {
                         style={{ maxWidth: '100%', borderRadius: '12px' }}
                     ></iframe>
                     </div>
-                </div>   
+                </div>    */}
                 <div className="container">
                     <div style={{ display: 'flex', justifyContent: 'center' }}>
                     <iframe
@@ -81,7 +81,7 @@ class Ollama4jUIImageCarousel extends React.Component {
                     ></iframe>
                     </div>
                 </div>   
-                <ImageGallery items={images} renderItem={this.renderItem} />
+                {/* <ImageGallery items={images} renderItem={this.renderItem} /> */}
             </div>
         );
     }
