@@ -4,7 +4,7 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -66,7 +66,7 @@ const config = {
     ],
 
     themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+        /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
             // Replace with your project's social card
             image: 'img/docusaurus-social-card.jpg',
@@ -83,10 +83,10 @@ const config = {
                         position: 'left',
                         label: 'Docs',
                     },
-                    {to: 'https://github.com/ollama4j/ollama4j-examples', label: 'Examples', position: 'left'},
-                    {to: 'https://ollama4j.github.io/ollama4j/apidocs/', label: 'Javadoc', position: 'left'},
-                    {to: 'https://ollama4j.github.io/ollama4j/doxygen/html/', label: 'Doxygen', position: 'left'},
-                    {to: '/blog', label: 'Blog', position: 'left'},
+                    { to: 'https://github.com/ollama4j/ollama4j-examples', label: 'Examples', position: 'left' },
+                    { to: 'https://ollama4j.github.io/ollama4j/apidocs/', label: 'Javadoc', position: 'left' },
+                    { to: 'https://ollama4j.github.io/ollama4j/doxygen/html/', label: 'Doxygen', position: 'left' },
+                    { to: '/blog', label: 'Blog', position: 'left' },
                     {
                         href: 'https://github.com/ollama4j/ollama4j',
                         label: 'GitHub',
@@ -123,7 +123,7 @@ const config = {
                             },
                             {
                                 label: 'Ollama4j Desktop UI with Swing',
-                                to: 'https://github.com/ollama4j/ollama4j-ui',
+                                to: 'https://github.com/ollama4j/doota',
                             },
                         ],
                     },
