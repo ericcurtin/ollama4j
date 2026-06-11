@@ -80,7 +80,7 @@ class Ollama4jUIImageCarousel extends React.Component {
                         style={{ maxWidth: '100%', borderRadius: '12px' }}
                     ></iframe>
                     </div>
-                </div>   
+                </div>
                 {/* <ImageGallery items={images} renderItem={this.renderItem} /> */}
             </div>
         );
