@@ -34,6 +34,9 @@ public class Model {
     @JsonProperty("details")
     private ModelMeta modelMeta;
 
+    @JsonProperty("capabilities")
+    private String[] capabilities;
+
     /**
      * Returns the model name without its version
      *
